@@ -30,25 +30,34 @@
 
 
 
-setTimeout(()=>{
-    console.log("hello1")
-},3000);
+// setTimeout(()=>{
+//     console.log("hello1")
+// },3000);
+
+// setTimeout(()=>{
+//     console.log("hello1")
+// },4000);
+
+// setTimeout(()=>{
+//     console.log("hello1")
+// },5000);
+
+
+// function a(){
+
+//     console.log("World");
+// }
+// a();
+
+
 
 setTimeout(()=>{
-    console.log("hello1")
-},4000);
+    let fact=1;
+    for(i=1;i<=5;i++){
+        fact=fact*i
+    }
 
-setTimeout(()=>{
-    console.log("hello1")
-},5000);
-
-
-function a(){
-
-    console.log("World");
-}
-a();
-
-
+         console.log(fact)
+     },3000);
 
 
