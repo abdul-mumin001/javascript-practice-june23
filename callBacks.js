@@ -51,13 +51,18 @@
 
 
 
-setTimeout(()=>{
-    let fact=1;
-    for(i=1;i<=5;i++){
-        fact=fact*i
-    }
+// setTimeout(()=>{
+//     let fact=1;
+//     for(i=1;i<=5;i++){
+//         fact=fact*i
+//     }
 
-         console.log(fact)
-     },3000);
+//          console.log(fact)
+//      },3000);
 
 
+
+function any(num1.num2){
+    console.log(num1+num2)
+}
+setTimeout(any,4000,5,6)
