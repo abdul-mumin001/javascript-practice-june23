@@ -36,6 +36,10 @@
 //         x=a+b;
 //         a=b;
 //         b=x;
+//         console.log(x,i,"x")
+// console.log(a,i,"a");
+// console.log(b,i,"b");
+
 
 //     }
 //     return b;
@@ -43,7 +47,7 @@
 
 
 // }
-// let x=10
+// let x=2
 // console.log(fibonacci(x))
 
 
