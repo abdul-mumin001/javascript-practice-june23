@@ -62,7 +62,7 @@
 
 
 
-function any(num1.num2){
-    console.log(num1+num2)
-}
-setTimeout(any,4000,5,6)
+// function any(num1.num2){
+//     console.log(num1+num2)
+// }
+// setTimeout(any,4000,5,6)

@@ -5,9 +5,7 @@ const decimal_to_binary =(n) =>{
         }else{
             return decimal_to_binary(n/2)+0;
         }
-    }else{
-        return ''
     }
-    
+    return "";
 }
-console.log(decimal_to_binary(4))
+console.log(decimal_to_binary(2))

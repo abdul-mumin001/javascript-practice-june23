@@ -1,12 +1,37 @@
 // Q.Factorial of a number with Recursion 
 
-function y(num,fact){
-    // console.log(num)
-    if(num>0){
-        fact=fact*num
-        return y(num-1,fact)
+// function y(num,fact){
+//     // console.log(num)
+//     if(num>0){
+//         fact=fact*num
+//         return y(num-1,fact)
 
+//     }
+//     return fact
+// }
+// console.log(y(5,1))
+
+
+//Q.print all the no. bet the given range
+
+// function AllNo(a,b){
+
+//     while(a<=b){
+//         console.log(a)
+//         return AllNo(a+1,b)
+        
+//     }
+   
+// }
+// AllNo(1,10)
+
+
+let a=parseInt(process.argv[2])
+function reverse(a,b){
+
+    while(a>=b){
+        console.log(a)
+        return reverse(a-1,b)
     }
-    return fact
 }
-console.log(y(5,1))
+reverse(a,1)
