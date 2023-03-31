@@ -12,19 +12,6 @@
 // console.log(y(5,1))
 
 
-//Q.print all the no. bet the given range
-
-// function AllNo(a,b){
-
-//     while(a<=b){
-//         console.log(a)
-//         return AllNo(a+1,b)
-        
-//     }
-   
-// }
-// AllNo(1,10)
-
 
 let a=parseInt(process.argv[2])
 function reverse(a,b){
