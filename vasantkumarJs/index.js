@@ -14,4 +14,4 @@ let x="null";
 console.log(typeof(a))
 let y="undefined";
 console.log(typeof(b))
-console.log(a+b);
+console.log(x+y);
